@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classchat</title>
+        <link rel="stylesheet" type="text/css" href="whatsapp.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="leftSide">
+                <div class="header">
+                    <div class="userimg">
+                        <img src="user.jpg" class="cover" alt="User">
+                    </div>
+                    <ul class="nav_icons">
+                        <li><ion-icon
+                                name="scan-circle-outline"></ion-icon></li>
+                        <li><ion-icon name="chatbox"></ion-icon></li>
+                        <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                    </ul>
+                </div>
+
+                <div class="search_chat">
+                    <div>
+                        <input type="text"
+                            placeholder="Search or start new chat">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="chatlist">
+                    <div class="chatname block active" chatnumber="0">
+                        <div class="imgbx">
+                            <img src="user.jpg" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listHead">
+                                <h4>Classchat</h4>
+                                <p class="time">3/5/2024</p>
+                            </div>
+                            <div class="message_p">
+                                <p>Hi everyone in Lemon Tree!Type a message
+                                    below.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="chatname block" chatnumber="1">
+                        <div class="imgbx">
+                            <img src="Lemon.jpg" class="cover">
+                        </div>
+                        <div class="details">
+                            <div class="listHead">
+                                <h4>Private Chat</h4>
+                                <p class="time">3/5/2024</p>
+                            </div>
+                            <div class="message_p">
+                                <p>Hi everyone who knows the password!Type a message
+                                    below.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSide">
+                <div class="header">
+                    <div class="imgText">
+                        <div class="userimg">
+                            <img src="user.jpg" class="cover" alt="User">
+                        </div>
+                        <h4>Random User<br><span>online</span></h4>
+                    </div>
+                    <ul class="nav_icons">
+                        <li><ion-icon name="search-outline"></ion-icon></li>
+                        <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                    </ul>
+                </div>
+
+                <div class="chatbox">
+
+                    <!-- <div class="message freind_message"> 
+                    <p>Hello<br><span>12:15</span></p>
+                </div> -->
+                </div>
+                <div class="chatbox_input">
+                    <ion-icon name="happy-outline"></ion-icon>
+                    <input type="text" placeholder="Type your name" id="name">
+                    <input id="allMessages" type="text" placeholder="Welcome everyone to Wahee's Class chat. Type something in here.">
+                    <ion-icon id="sendButton" name="paper-plane-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div id="child">
+            <p id="text"> Hint: I like...</p>
+            <input id="myInput" type="text" placeholder="Only VIP's know &#128526!">
+            <button onclick="myFunction()" id="tryit">Try it</button>
+            <p id="demo"></p>
+        </div>
+    </body>
+
+        <script type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="whatsapp.js"></script> 
+            <script src="whatsapp.css"></script>
+</html>
